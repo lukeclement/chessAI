@@ -35,6 +35,9 @@ class Piece{
   public int getType(){
     return type;
   }
+  public boolean isAlive(){
+    return alive;
+  }
   //Setters
   public void setY(int ny){
     y=ny;
