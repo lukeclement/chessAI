@@ -7,6 +7,7 @@ class Player{
     playerColor=color;
     if(playerColor==0){
       for(int i=0;i<8;i++){
+        //Type,x position, y position
         pieces[i]=new Piece(2,i+1,2);
       }
       pieces[8]=new Piece(0,5,1);
@@ -19,7 +20,7 @@ class Player{
       pieces[15]=new Piece(5,6,1);
     }else{
       for(int i=0;i<8;i++){
-        pieces[i]=new Piece(2,i+1,7);
+        pieces[i]=new Piece(6,i+1,7);
       }
       pieces[8]=new Piece(0,5,8);
       pieces[9]=new Piece(1,4,8);
@@ -30,6 +31,7 @@ class Player{
       pieces[14]=new Piece(5,3,8);
       pieces[15]=new Piece(5,6,8);
     }
+
   }
 
   public Piece[] getPieces(){
