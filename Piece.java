@@ -55,7 +55,7 @@ class Piece{
                 }
               }
               else if(j<i){
-
+                /
               }
               else if(i==j){
 
